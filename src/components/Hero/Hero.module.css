@@ -1,0 +1,127 @@
+:root {
+  --color-off-white: #F0EDE5;
+  --color-skin-tone: #D9B08C;
+  --color-hair: #4A2E1C;
+  --color-background-dark: #1E1E1E;
+  --color-accent-light-purple: #D8BFD8;
+  --color-name: #F7C6C7;
+  --color-typewriter: #D9B08C;
+}
+
+body {
+  background-color: var(--color-background-dark);
+  color: var(--color-off-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-off-white);
+  z-index: 1;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  background: var(--color-off-white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.typewriterDescription {
+  font-size: 55px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, var(--color-skin-tone) 50%, var(--color-accent-light-purple) 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+
+.typewriterCursor {
+  font-weight: 900;
+  font-size: 55px;
+  color: var(--color-typewriter);
+  opacity: 1;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.summary {
+  font-size: 24px;
+  margin-bottom: 52px;
+  color: var(--color-off-white);
+}
+
+.contactBtn {
+  text-decoration: none;
+  background: linear-gradient(90deg, var(--color-skin-tone), var(--color-accent-light-purple));
+  color: var(--color-background-dark); 
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.contactBtn:hover {
+  background: linear-gradient(90deg, var(--color-accent-light-purple), var(--color-skin-tone));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateX(+3px);
+  color: var(--color-off-white);
+}
+
+.heroImg {
+  width: 50%; 
+  z-index: 1;
+  border-radius: 50%;
+  border: 5px solid var(--color-off-white);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .title, .typewriterDescription {
+    font-size: 30px;
+  }
+
+  .summary {
+    font-size: 20px;
+  }
+
+  .heroImg {
+    width: 50%; 
+  }
+}

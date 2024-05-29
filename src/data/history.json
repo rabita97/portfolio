@@ -1,0 +1,37 @@
+[
+  {
+      "role": "Junior Programmer",
+      "organisation": "Ubisoft Halifax, NS",
+      "startDate": "January, 2024",
+      "endDate": "April, 2024",
+      "experiences": [
+          "Developed internal database tools with MongoDB and Budibase",
+          "Built an unreleased game prototype with Unity and C#",
+          "Participated in daily Agile stand-ups and completed Jira tickets"
+      ],
+      "imageSrc": "history/ubisoft.png"
+  },
+  {
+      "role": "DevOps Intern",
+      "organisation": "Munich Re Toronto, ON",
+      "startDate": "May, 2023",
+      "endDate": "August, 2023",
+      "experiences": [
+          "Documented system requirements for IFRS17 project",
+          "Created VAPT RFI for CIRCA project",
+          "Facilitated service description documentation"
+      ],
+      "imageSrc": "history/munich_re.png"
+  },
+  {
+      "role": "Head Teaching Assistant",
+      "organisation": "Faculty of Computer Science, Dalhousie University",
+      "startDate": "January, 2023",
+      "endDate": "Present",
+      "experiences": [
+          "Led a team of 20+ TAs and coordinated meetings",
+          "Assisted in lab sessions for over 150 students"
+      ],
+      "imageSrc": "history/dalhousie.png"
+  }
+]

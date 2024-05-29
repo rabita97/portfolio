@@ -1,0 +1,66 @@
+[
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "skills/php.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "skills/c.png"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "skills/csharp.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/mysql.png"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Git/GitHub",
+      "imageSrc": "skills/github.png"
+    },
+    {
+      "title": "GitLab",
+      "imageSrc": "skills/gitlab.png"
+    },
+    {
+      "title": "Unity",
+      "imageSrc": "skills/unity.png"
+    }
+  ]

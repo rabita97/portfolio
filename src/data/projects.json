@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Art By You",
+    "imageSrc": "projects/project1.png",
+    "description": "Art by You is a dynamic website for showcasing local artists' work. Users can view portfolios, contact artists, and make purchases or hire them. Implemented with PHP, HTML, MySQL, CSS, and JavaScript, featuring user-friendly signup and authentication for secure, personalized experiences."
+  },
+  {
+    "title": "Able",
+    "imageSrc": "projects/project2.png",
+    "description": "Able, an accessibility-focused iOS app for elderly users. Features voice assistance, zoom options, and integrated physical activity. Enhanced social connectivity through group chats and video calls. Used UX/UI design principles and created detailed prototypes with Figma for a seamless user experience."
+  },
+  {
+    "title": "QuickCash",
+    "imageSrc": "projects/project3.png",
+    "description": "Quick Cash is an Android app to connect job seekers and employers locally. Features include job listings, dynamic local area detection, personalized job searches, online payments, real-time alerts, and user ratings. Built with Android Studio and Java, integrating Firebase for backend, XML for UI design, and Google Maps and PayPal APIs for location and payments."
+  }
+]

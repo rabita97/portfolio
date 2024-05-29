@@ -1,0 +1,11 @@
+/* Importing the custom variables for color */
+@import "./vars.css";
+
+.App {
+  position: relative;
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%; /* This might need to be adjusted depending on your layout */
+  overflow: hidden; /* This can be adjusted or removed if it causes issues */
+}
+
